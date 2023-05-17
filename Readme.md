@@ -1,7 +1,7 @@
 A simple cron crate for rust project! Base on tokio-cron-scheduler,for example:
 
 ```toml
-cron_macro = {versio="0.1.0"}
+cron_macro = {version = "0.1.3"}
 ctrlc = "3.2.5"
 tokio = {version = "1.26.0", features = ["full", "macros"]}
 tokio-cron-scheduler = "0.9.4"

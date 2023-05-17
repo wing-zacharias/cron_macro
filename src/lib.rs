@@ -6,6 +6,21 @@ macro_rules! codegen_reexport {
 
 codegen_reexport!(cron);
 
+///
+/// start run schedule function:
+/// usage:
+///     
+///     #[cron(...)]
+///     fn func1() ...
+///
+///     #tokio::main]
+///     async fn main(){
+///         ...
+///         cron_task_run!(func1,);
+///         ...
+///     }
+///
+///
 #[macro_export]
 macro_rules! cron_task_run {
     ($($var:ident,)*) => {
