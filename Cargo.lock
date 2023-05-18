@@ -87,17 +87,18 @@ dependencies = [
 
 [[package]]
 name = "cron_macro"
-version = "0.1.4"
+version = "0.1.5"
 dependencies = [
  "cron_macro_codegen",
 ]
 
 [[package]]
 name = "cron_macro_codegen"
-version = "0.1.4"
+version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d0b9c46e335c1d10057109a6bdd48086ccba3a5fcedbb57c28655a823c34c2aa"
+checksum = "a33eaf597eafa7a5476183413143cacbe9dae47d32946878c0a852ad22ca46a9"
 dependencies = [
+ "cron",
  "lazy_static",
  "proc-macro2",
  "quote",

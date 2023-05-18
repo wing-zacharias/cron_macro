@@ -11,7 +11,7 @@ codegen_reexport!(cron);
 /// usage:
 ///     
 ///     #[cron(...)]
-///     fn func1() ...
+///     fn func1(){...}
 ///
 ///     #tokio::main]
 ///     async fn main(){
