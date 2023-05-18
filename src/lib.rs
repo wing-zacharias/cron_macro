@@ -7,7 +7,7 @@ macro_rules! codegen_reexport {
 codegen_reexport!(cron);
 
 ///
-/// start run schedule function:
+/// start run schedule function!
 /// usage:
 ///     
 ///     #[cron(...)]
